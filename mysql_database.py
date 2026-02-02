@@ -78,19 +78,3 @@ def delete_summary(id):
     db.commit()
     cur.close()
     db.close()
-
-# CREATING TABLE API SUMMARY
-# db = get_db()
-# cur = db.cursor()
-# query = """
-# CREATE TABLE api_summary (
-# id INT PRIMARY KEY AUTO_INCREMENT,
-# text LONGTEXT,
-# summary LONGTEXT,
-# language CHAR(50)
-# );
-# """
-# cur.execute(query)
-# db.commit()
-# cur.close()
-# db.close()

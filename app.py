@@ -212,7 +212,6 @@ if st.session_state.get("viewing_history", False):
         st.session_state.clear()
         st.rerun()
 
-# st.write("User ID:", user_id)
 
 
 
