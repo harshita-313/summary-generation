@@ -1,0 +1,2 @@
+You need to create a clear and simple summary of the text provided in mostly differnt words or synonyms and also return a JSON structure of the following: summary, language.
+You need to detect the correct language and give the language code (e.g., en, ar, ect.) and also provide the summary in the same language as text.
