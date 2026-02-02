@@ -22,7 +22,6 @@ class Text(BaseModel):
     text: str
 
 class Get_items(BaseModel):
-    # text: str
     summary: str = Field(description="")
     language: str = Field(description="Give the language code")
    
